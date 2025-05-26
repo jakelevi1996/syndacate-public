@@ -2,6 +2,12 @@
 
 Public code implementation for SynDaCaTE paper.
 
+## Contents
+
+- [syndacate-public](#syndacate-public)
+  - [Contents](#contents)
+  - [Installation](#installation)
+
 ## Installation
 
 ```
