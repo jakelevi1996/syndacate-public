@@ -1,0 +1,27 @@
+{
+    "loss": "ChamferMse",
+    "dataset": "ImToParts",
+    "model": "RzCnn",
+    "model.RzCnn.kernel_size": 5,
+    "model.RzCnn.model_dim": 64,
+    "model.RzCnn.expand_ratio": 2.0,
+    "model.RzCnn.num_stages": 3,
+    "model.RzCnn.blocks_per_stage": 2,
+    "model.RzCnn.stride": 2,
+    "model.RzCnn.embedder": "CoordConv",
+    "model.RzCnn.pooler": "LinearSet2d",
+    "trainer": "BpSp",
+    "trainer.BpSp.batch_size": 100,
+    "trainer.BpSp.epochs": 100,
+    "trainer.BpSp.optimiser": "Adam",
+    "trainer.BpSp.optimiser.Adam.lr": 0.001,
+    "trainer.BpSp.lrs": "CosineAnnealingLR",
+    "trainer.BpSp.lrs.CosineAnnealingLR.eta_min": 1e-05,
+    "seed": 3,
+    "devices": [
+        0
+    ],
+    "configs": [],
+    "model_name": null,
+    "print_level": 0
+}
