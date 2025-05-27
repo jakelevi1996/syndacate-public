@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "syndacate_public"
+version = "0.0.1"
+
+[project.scripts]
+syndacate = "syndacate_public.framework:Framework.run"
