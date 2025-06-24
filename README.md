@@ -1,6 +1,6 @@
 # syndacate-public
 
-Public code implementation for the paper "SynDaCaTE: A Synthetic Dataset For Evaluating Part-Whole Hierarchical Inference".
+Public code implementation for the paper "SynDaCaTE: A Synthetic Dataset For Evaluating Part-Whole Hierarchical Inference", which is [available on Arxiv](https://arxiv.org/pdf/2506.17558).
 
 Results highlights and commands can be found in our attached [Jupyter notebook](syndacate.ipynb). Included in this `README.md` are installation instructions, and commands to replicate the full sweeps shown in Figure 1 in the paper.
 
